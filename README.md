@@ -9,6 +9,10 @@ The project is split into three parts:
 2. [The RestAPI Backend](https://github.com/udacity/cloud-developer/tree/master/course-02/exercises/udacity-c2-restapi), a Node-Express server which can be deployed to a cloud service. [Covered in the course]
 3. [The Image Filtering Microservice](https://github.com/udacity/cloud-developer/tree/master/course-02/project/image-filter-starter-code), the final project for the course. It is a Node-Express application which runs a simple script to process images. [Your assignment]
 
+## Elastic Beanstalk Endpoint URL
+
+http://image-filter-starter-code-dev22222222222222222222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.pngmart.com/files/21/Among-Us-Character-PNG.png
+
 ## Tasks
 
 ### Setup Node Environment
@@ -31,10 +35,6 @@ import { filterImageFromURL, deleteLocalFiles } from "./util/util";
 ### Deploying your system
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
-
-## Elastic Beanstalk Endpoint URL
-
-http://image-filter-starter-code-dev22222222222222222222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.pngmart.com/files/21/Among-Us-Character-PNG.png
 
 ## Stand Out (Optional)
 
